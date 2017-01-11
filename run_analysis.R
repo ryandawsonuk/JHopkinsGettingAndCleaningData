@@ -40,7 +40,7 @@ names(feature)<- featurelabels$V2
 
 #only want feature columns with 'mean()' or 'std()' in their names (this is objective 2)
 #so extract these names into a vector (using grep with regex) and use to subset the feature dataset
-meanstdev<-c(as.character(featurestxt$V2[grep(pattern="mean\\(\\)|std\\(\\)", x=featurelabels$V2,ignore.case=TRUE)]))
+meanstdev<-c(as.character(featurelabels$V2[grep(pattern="mean\\(\\)|std\\(\\)", x=featurelabels$V2,ignore.case=TRUE)]))
 subsetfeaturedata<-subset(feature,select=meanstdev)
 
 #combine the activity subject and subsetted feature data sets into one (part of objective 1)
