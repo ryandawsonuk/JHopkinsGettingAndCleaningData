@@ -26,7 +26,7 @@ Data set structure with test and train is split into activity (Y), subject and f
 
 Each of the feature data sets ([X_test.txt](UCI HAR Dataset/test/X_test.txt) and [X_train.txt](UCI HAR Dataset/train/X_train.txt) contains 561 columns. These columns map to the feature names in [features.txt](UCI HAR Dataset/features.txt), in the order given there. (Description of the features in [features_info.txt](UCI HAR Dataset/features_info.txt).)
 
-There are the same number of rows in the X_test and y_test data sets and these map to one another. The nth row in the y_test data set represents the activity being performed by a test subject when the observations captured in the the nth row of the X_test data set were captured. Likewise the nth row in subject_test data contains an identifier for the subject for nth test data observation.
+There are the same number of rows in the [X_test.txt](UCI HAR Dataset/test/X_test.txt) and [Y_test.txt](UCI HAR Dataset/test/Y_test.txt) data sets and these map to one another. The nth row in the [Y_test.txt](UCI HAR Dataset/test/Y_test.txt) data set represents the activity being performed by a test subject when the observations captured in the the nth row of the [X_test.txt](UCI HAR Dataset/test/X_test.txt) data set were captured. Likewise the nth row in [subject_test.txt](UCI HAR Dataset/test/subject_test.txt) data contains an identifier for the subject for nth test data observation.
 
 The numbers in the [Y_test.txt](UCI HAR Dataset/test/Y_test.txt) and [Y_train.txt](UCI HAR Dataset/train/Y_train.txt) data map to the activity labels captured in [activity_labels.txt](UCI HAR Dataset/activity_labels.txt).
 
@@ -41,6 +41,6 @@ The numbers in the [Y_test.txt](UCI HAR Dataset/test/Y_test.txt) and [Y_train.tx
 
 ##Notes on Derived Data
 
-The variables in the [merged_data.txt](merged_data.txt) are the same as in the source data and the descriptions in [features_info.txt](UCI HAR Dataset/features_info.txt) are therefore applicable to it.
+The variables in the [merged_data.txt](merged_data.txt) are the same as in the source data and the descriptions in [features_info.txt](UCI HAR Dataset/features_info.txt) from the source data are therefore applicable to it.
 
 The variables in [tidy_data.txt](tidy_data.txt) are shifted in meaning since each there represents an average value for the subject-activity combination of that row. The units remain unaffected.
