@@ -2,9 +2,9 @@
 
 ##Project Purpose
 
-The purpose of the project is to analyse the Human Activity Recognition Data Set and performs the specified cleaning activities on the data. These are to be performed in a run_analysis.R script.
+The purpose of the project is to analyse the Human Activity Recognition Data Set and perform specified cleaning activities on the data. These are to be performed in a run_analysis.R script.
 
-The activities to be performed by the script are:
+It is required that the run_analysis.R script:
 
     1. Merges the training and the test sets to create one data set.
     2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -16,7 +16,7 @@ This is the course project for the Johns Hopkins Getting and Cleaning Data Cours
 	
 ##What this README explains
 
-This README explains how to use the run_analysis.R script. For details of how the data was obtained, the structure of the data and its variables, what the script does and how it works, see CodeBook.md.
+This README explains how to use the run_analysis.R script. For details of how the data was obtained, the structure of the data and its variables, what the script does and how it works, see CodeBook.md (in this same directory).
 
 ##Steps for using run_analysis.R
 
