@@ -16,7 +16,7 @@ This is the course project for the Johns Hopkins Getting and Cleaning Data Cours
 	
 ##What this README explains
 
-This README explains how to use the run_analysis.R script. For details of how the data was obtained, the structure of the data and its variables, what the script does and how it works, see CodeBook.md (in this same directory).
+This README explains how to use the run_analysis.R script. For details of how the data was obtained, the structure of the data and its variables, what the script does and how it works, see [CodeBook.md](CodeBook.md).
 
 ##Steps for using run_analysis.R
 

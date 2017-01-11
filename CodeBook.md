@@ -2,7 +2,7 @@
 
 ##Project Purpose
 
-The purpose of the project is to analyse the Human Activity Recognition Data Set and performs the specified cleaning activities on the data. The aims include merging the 'test' and 'train' X and Y datasets and including appropriate labels in the cleansed data set. These are to be performed in a run_analysis.R script. For more details on how to run that script, see README.md. This document describes where the data comes from, its structure and what this project does to it.
+The purpose of the project is to analyse the Human Activity Recognition Data Set and performs the specified cleaning activities on the data. The aims include merging the 'test' and 'train' X and Y datasets and including appropriate labels in the cleansed data set. These are to be performed in a run_analysis.R script. For more details on how to run that script, see [README.md](README.md). This document describes where the data comes from, its structure and what this project does to it.
 
 ##Data source
 
