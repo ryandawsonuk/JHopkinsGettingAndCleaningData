@@ -2,9 +2,7 @@
 
 ##Project Purpose
 
-The purpose of the project is to analyse the Human Activity Recognition Data Set and performs the specified cleaning activities on the data. These are to be performed in a run_analysis.R script. 
-
-The aims include merging the 'test' and 'train' X and Y datasets and including appropriate labels in the cleansed data set. For more details on what that script does, see README.md
+The purpose of the project is to analyse the Human Activity Recognition Data Set and performs the specified cleaning activities on the data. The aims include merging the 'test' and 'train' X and Y datasets and including appropriate labels in the cleansed data set. These are to be performed in a run_analysis.R script. For more details on how to run that script, see README.md. This document describes where the data comes from, its structure and what this project does to it.
 
 ##Data source
 
@@ -18,7 +16,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ##Data Structure Observations
 
-The data comes as a zip file which is unzipped to contain files under 'test' and 'train' directories. These directories contain data in a set of text files and the file structures under 'test' and 'train' mirror one another.
+The data comes as a zip file which is unzipped to contain files under 'test' and 'train' directories. These directories contain data in a set of text files and the file structures under 'test' and 'train' mirror one another. This is because each has been cut from a single dataset.
 
 Data files are text files with columns seperated by whitespace. 
 
