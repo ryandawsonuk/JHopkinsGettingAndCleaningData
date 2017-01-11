@@ -30,7 +30,7 @@ There are the same number of rows in the [X_test.txt](UCI HAR Dataset/test/X_tes
 
 The numbers in the [Y_test.txt](UCI HAR Dataset/test/Y_test.txt) and [Y_train.txt](UCI HAR Dataset/train/Y_train.txt) data map to the activity labels captured in [activity_labels.txt](UCI HAR Dataset/activity_labels.txt).
 
-##Steps performed by the run_analysis.R script
+##Steps performed by the [run_analysis.R](run_analysis.R) script
 
 1. Load all of the test and train data for features, activities and subjects (note the files in the 'Inertial Signals' are not used in this project).
 2. Load labels for the loaded data sets.
