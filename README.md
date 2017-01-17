@@ -31,6 +31,6 @@ This README explains how to use the run_analysis.R script. For details of how th
 
 Completed 13 January 2017 - [Official Certificate](https://www.coursera.org/account/accomplishments/certificate/5KZNCDDAH6TV)
 
-#Note to Coursera
+#Note to Coursera Community
 
-I am storing this in source control after completing the course for my own purposes. This is not intended for coursera students. If anyone from Coursera disapproves then I am happy to remove - if so please flag to me under the issues section.
+I am storing this in source control after completing the course for my own purposes. This is not intended for coursera students. If anyone from Coursera community is uncomfortable with this then I am happy to remove - if so please flag to me under the issues section.
