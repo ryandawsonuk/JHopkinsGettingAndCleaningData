@@ -1,5 +1,6 @@
 #Getting and Cleaning Data Project - Analysis on Human Activity Recognition Using Smartphones Data Set
 
+
 ##Project Purpose
 
 The purpose of the project is to analyse the Human Activity Recognition Data Set and perform specified cleaning activities on the data. These are to be performed in a [run_analysis.R](run_analysis.R) script.
@@ -25,3 +26,11 @@ This README explains how to use the run_analysis.R script. For details of how th
 3. Run the run_analysis script in R (RStudio 1.0.44 was used for testing) using source("run_analysis.R").
 4. Check that merged_data.txt has been created in the working directory. It should have human-readable column headings in the first row. Other rows should be observations (10299 observations for 10301 lines in the file).
 5. Check that tidy_data.txt has been created in the working directory. It should have human-readable column headings in the first row. Other rows should be subject-activity combinations and avg values for them (180 combinations for 182 lines in the file). 
+
+##Certificate of Completion
+
+Completed 13 January 2017 - [Official Certificate](https://www.coursera.org/account/accomplishments/certificate/5KZNCDDAH6TV)
+
+#Note to Coursera
+
+I am storing this in source control after completing the course for my own purposes. This is not intended for coursera students. If anyone from Coursera disapproves then I am happy to remove - if so please flag to me under the issues section.
